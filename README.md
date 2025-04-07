@@ -28,13 +28,13 @@
 
 - Install Reshade from: https://reshade.me
 - Run the Reshade executable and choose the game you wish to mod.
-- Defaults are typically correct, but check Reshade site if help is needed.
-- Next download the files from this Github, `Rendepth.fx` and `Cursor_64px.png`.
+- Selected graphics API is usually correct, only the the standard effects are needed.
+- Next download the folders from this Github, `Shaders` and `Textures`.
 - Alternatively, download the latest release from the releases section.
-- Navigate to the game folder you installed Reshade to (in Steam, `Right-Click > Manage > Browse Local Files`).
-- Copy the `Rendepth.fx` file into `reshade-shaders/Shaders`.
-- Copy the `Cursor_64px.png` file into `reshade-shaders/Textures/Rendepth`.
-- Alternatively, copy both `Shaders` and `Textures` folders from the release and merge into `reshade-shaders`.
+- Launch the game and do the Reshade tutorial, if unfamiliar.
+- In the Settings tab, add `Effect Seach Path` for the `Shaders` folder you downloaded.
+- Add `Texture Search Path` with the `Textures` folder you downloaded.
+- Go back to the main Reshade tab and click `Relead`.
 
 ## Settings
 
