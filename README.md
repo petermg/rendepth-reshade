@@ -32,10 +32,10 @@
 - Next download the folders from this Github, `Shaders` and `Textures`.
 - Alternatively, download the latest release from the releases section.
 - Launch the game and do the Reshade tutorial, if unfamiliar.
-- In the Settings tab, add `Effect Seach Path` for the `Shaders` folder you downloaded.
+- In the Settings tab, add `Effect Search Path` for the `Shaders` folder you downloaded.
 - Add `Texture Search Path` with the `Textures` folder you downloaded.
 - Go back to the main Reshade tab and click `Relead`.
 
 ## Settings
 
-After installation, press the Reshade key (default `Home` key) to access the menu. Check the box next to Rendepth to enable the 3D conversion shader. In the Rendepth menu, the top slider is the distance between your eyes. In most cases you can set the value to `100` for maximum 3D effect, though lowering the value can help mitigate artifacts. The middle option controls how strong the depth is evaluated to. It is typically safe to increase this value to `100` for a more extreme depth range. The bottom most slider is the parallax overlap. This shifts the images left or right to make the overlap more comfortable (plane of focus). This value is content dependent but usually acceptable near the center. For most games setting the values to `100` `100` `64` provides the best effect, though please experiment.
+After installation, press the Reshade key (default `Home` key) to access the menu. Check the box next to Rendepth to enable the 3D conversion shader. In the Rendepth menu, the top slider is the distance between your eyes. In most cases you can set the value to `100` for maximum 3D effect, though lowering the value can help mitigate artifacts. The middle option controls how strong the depth is evaluated to. It is typically safe to increase this value to `100` for a more extreme depth range. The bottom most slider is the parallax overlap. This shifts the images left or right to make the overlap more comfortable (plane of focus). This value is content dependent but usually acceptable near the center. For most games setting the values to `100` `100` `64` provides the best effect.
