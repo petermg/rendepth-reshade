@@ -85,8 +85,8 @@ uniform float stereoStrength <
 	ui_label = "Stereo Strength";
 	ui_tooltip = "Eye Separation";
 	ui_type = "slider"; 
-	ui_min = 0.0; 
-	ui_max = 100.0;
+	ui_min = -5000.0; 
+	ui_max = 5000.0;
 	ui_step = 1.0;
 > = 50.0;
 
@@ -94,8 +94,8 @@ uniform float stereoDepth <
 	ui_label = "Depth Range";
 	ui_tooltip = "Z-Buffer Scaling";
 	ui_type = "slider"; 
-	ui_min = 0.0; 
-	ui_max = 100.0;
+	ui_min = -5000.0; 
+	ui_max = 5000.0;
 	ui_step = 1.0; 
 > = 50.0;
 
@@ -103,7 +103,7 @@ uniform float stereoOffset <
 	ui_label = "Parallax Overlap";
 	ui_tooltip = "Zero Depth Plane";
 	ui_type = "slider"; 
-	ui_min = 0.0; 
+	ui_min = -100.0; 
 	ui_max = 100.0;
 	ui_step = 1.0; 
 > = 50.0;
